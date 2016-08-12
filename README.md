@@ -2,6 +2,9 @@
 ![3DTouchPeek](http://7xsyr8.com1.z0.glb.clouddn.com/60B0BF21F344DADB4A44565A71740495.png?imageView2/1/w/200/h/355)
 ![PeekAction](http://7xsyr8.com1.z0.glb.clouddn.com/F3A22AFC8E62DACC1898B52ED81773FF.png?imageView2/1/w/200/h/355)
 ![popVC](http://7xsyr8.com1.z0.glb.clouddn.com/1966FEDC55C592605A4E769B754D2130.png?imageView2/1/w/200/h/355)
-3D Touch开发demo
+3DTouch(shortcut/peek/peekAction/pop)
 ------- 
+*一个能看的懂的Demo.
+<br/>代码
+-------
 
