@@ -5,7 +5,8 @@
 3DTouch(shortcut/peek/peekAction/pop)
 ------- 
 * 一个能看的懂的Demo.
-<br/>方法
+<br/>
+方法
 -------
 3DTouch~shortcut图标按压快捷键（最多只能创建4个）<br/>
 有两种方法创建：<br />
@@ -13,7 +14,7 @@
 <br/>
 1.在plist下UIApplicationShortcutItems数组里写死item，item便是自定义的按压快捷（看demo）。<br />
 2.通过系统方法创建;
-```Objective-C
+```Swift
     //创建item的icon图标(可以调用系统的 也可以自定义)
     //自定义;
     UIApplicationShortcutIcon *icon1 = [UIApplicationShortcutIcon iconWithTemplateImageName:@"cursoure_pic"];
