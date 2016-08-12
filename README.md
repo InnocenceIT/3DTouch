@@ -9,11 +9,11 @@
 方法
 -------
 3DTouch~shortcut图标按压快捷键（最多只能创建4个）<br/>
-有两种方法创建：<br />
-1.写在项目plist下.  2.调用系统类创建.
+* 有两种方法创建：<br />
+	* 1.写在项目plist下.  2.调用系统类创建.
 <br/>
-1.在plist下UIApplicationShortcutItems数组里写死item，item便是自定义的按压快捷（看demo）。<br />
-2.通过系统方法创建;
+		* 1.在plist下UIApplicationShortcutItems数组里写死item，item便是自定义的按压快捷（看demo）。<br />
+		* 2.通过系统方法创建;
 ```objectivec
     //创建item的icon图标(可以调用系统的 也可以自定义)
     //自定义;
@@ -30,7 +30,4 @@
     
     [UIApplication sharedApplication].shortcutItems = @[item1, item2, item3];
 ```
-<br/>代码
--------
-```Objective-C
 
