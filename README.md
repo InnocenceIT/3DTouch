@@ -14,7 +14,7 @@
 <br/>
 1.在plist下UIApplicationShortcutItems数组里写死item，item便是自定义的按压快捷（看demo）。<br />
 2.通过系统方法创建;
-```Swift
+```objectivec
     //创建item的icon图标(可以调用系统的 也可以自定义)
     //自定义;
     UIApplicationShortcutIcon *icon1 = [UIApplicationShortcutIcon iconWithTemplateImageName:@"cursoure_pic"];
