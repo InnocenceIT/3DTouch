@@ -4,7 +4,7 @@
 ![popVC](http://7xsyr8.com1.z0.glb.clouddn.com/1966FEDC55C592605A4E769B754D2130.png?imageView2/1/w/200/h/355)
 3DTouch(shortcut/peek/peekAction/pop)
 ------- 
-* 一个能看的懂的Demo.
+* 一个看起来不费劲的Demo.
 
 方法
 -------
@@ -50,4 +50,6 @@
     }
 }
 ```
+3DTouch~Peek、Action、Pop创建请看Demo~ 一个看起来不费劲的Demo.
 
+`[微博](http://weibo.com/fly12358 "TMDBug")`
