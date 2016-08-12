@@ -5,7 +5,7 @@
 3DTouch(shortcut/peek/peekAction/pop)
 ------- 
 * 一个能看的懂的Demo.
-<br/>
+
 方法
 -------
 3DTouch~shortcut图标按压快捷键（最多只能创建4个）<br/>
