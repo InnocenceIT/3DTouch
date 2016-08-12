@@ -4,7 +4,32 @@
 ![popVC](http://7xsyr8.com1.z0.glb.clouddn.com/1966FEDC55C592605A4E769B754D2130.png?imageView2/1/w/200/h/355)
 3DTouch(shortcut/peek/peekAction/pop)
 ------- 
-*一个能看的懂的Demo.
+* 一个能看的懂的Demo.
+<br/>方法
+-------
+3DTouch~shortcut图标按压快捷键（最多只能创建4个）<br/>
+有两种方法创建：<br />
+1.写在项目plist下.  2.调用系统类创建.
+<br/>
+1.在plist下UIApplicationShortcutItems数组里写死item，item便是自定义的按压快捷（看demo）。<br />
+2.通过系统方法创建;
+```Objective-C
+    //创建item的icon图标(可以调用系统的 也可以自定义)
+    //自定义;
+    UIApplicationShortcutIcon *icon1 = [UIApplicationShortcutIcon iconWithTemplateImageName:@"cursoure_pic"];
+    //系统图标;
+    UIApplicationShortcutIcon *icon2 = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeShare];
+    UIApplicationShortcutIcon *icon3 = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeBookmark];
+    
+    
+    //创建ShortcutItem
+    UIMutableApplicationShortcutItem *item1 = [[UIMutableApplicationShortcutItem alloc]initWithType:@"3dtouch.test2" localizedTitle:@"Title2" localizedSubtitle:nil icon:icon1 userInfo:nil];
+    UIMutableApplicationShortcutItem *item2 = [[UIMutableApplicationShortcutItem alloc]initWithType:@"3dtouch.test3" localizedTitle:@"Title3" localizedSubtitle:nil icon:icon2 userInfo:nil];
+    UIMutableApplicationShortcutItem *item3 = [[UIMutableApplicationShortcutItem alloc]initWithType:@"3dtouch.test4" localizedTitle:@"Title4" localizedSubtitle:@"这是title4副标题" icon:icon3 userInfo:@{@"key":@"test3333"}];
+    
+    [UIApplication sharedApplication].shortcutItems = @[item1, item2, item3];
+```
 <br/>代码
 -------
+```Objective-C
 
