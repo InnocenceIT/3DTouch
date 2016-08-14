@@ -50,7 +50,7 @@
     }
 }
 ```
-3DTouch~Peek、Action、Pop创建请看Demo~ 一个看起来不费劲的Demo.
+3DTouch~Peek、Action、Pop,请看Demo~ 一个看起来不费劲的Demo.
 
-
+有啥错误请指出😳，谢谢~
 `微博`:[TMDBug](http://weibo.com/fly12358 "TMDBug")
